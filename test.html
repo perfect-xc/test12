@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <title>微金所</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        .row>div{
+            background-color: #ccc;
+            border-bottom: 1px solid #fff;
+        }
+        .row>div+div{
+            border-left:1px solid #fff
+        }
+        .row>div>a{
+            display: block;
+            width: 100%;
+            height: 50px;
+            background-color: red;
+        }
+        span{
+            display: block;
+            width: 30px;
+            height: 30px;
+            background-color: #d5d5d5;
+            margin-bottom:10px;
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!--<div class="row hidden-xs" >-->
+        <!--<div class="col-sm-6 col-md-4">.col-xs-6 .col-sm-4</div>-->
+        <!--<div class="col-sm-6 col-md-4">.col-xs-6 .col-sm-4</div>-->
+        <!--<div class="col-sm-6 col-md-4">.col-xs-6 .col-sm-4</div>-->
+        <!--<div class="col-sm-6 col-md-4">.col-xs-6 .col-sm-4</div>-->
+        <!--<div class="col-sm-6 col-md-4">.col-xs-6 .col-sm-4</div>-->
+        <!--<div class="col-sm-6 col-md-4">.col-xs-6 .col-sm-4</div>-->
+    <!--</div>-->
+    <div class="row " >
+        <div class="col-xs-12 col-sm-6 col-md-4"><a href="">.col-xs-6 .col-sm-4</a></div>
+        <div class="col-xs-12 col-sm-6 col-md-4"><a href="">.col-xs-6 .col-sm-4</a></div>
+        <div class="col-xs-12 col-sm-6 col-md-4"><a href="">.col-xs-6 .col-sm-4</a></div>
+        <div class="col-xs-12 col-sm-6 col-md-4"><a href="">.col-xs-6 .col-sm-4</a></div>
+
+    </div>
+    <span title="数字">123</span>
+    <span data-toggle="tooltip" data-placement="top" title="数字">123</span>
+</div>
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/artTemplate/template-native.js"></script>
+
+</body>
+</html>
