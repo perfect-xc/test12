@@ -1,1 +1,1 @@
-const c= 666;
+const ss=888;
